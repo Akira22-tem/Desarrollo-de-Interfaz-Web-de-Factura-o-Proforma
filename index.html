@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura Comercial</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="factura-container">
+        <div class="encabezado">
+            <!-- Sección 1: Datos de la empresa -->
+            <table class="tabla-empresa">
+                <tr>
+                    <td class="logo">
+                        <img src="logo.jpg" alt="Logo de la empresa" class="logo-img">
+                    </td>
+                    <td class="datos-empresa">
+                        <h1>COMERCIAL INSUMOS S.A.</h1>
+                        <p>Av. Principal 123, Zona Comercial</p>
+                        <p>Tel: (01) 456-7890 | Email: info@comercialinsumos.com</p>
+                        <p>RUC: 1234567890001</p>
+                    </td>
+                    <td class="factura-num">
+                        <div class="factura-titulo">FACTURA</div>
+                        <div class="factura-detalle">
+                            <p><strong>No.:</strong> F-00012345</p>
+                            <p><strong>Fecha:</strong> 11/05/2025</p>
+                            <p><strong>Válido hasta:</strong> 11/06/2025</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+            <!-- Sección 2: Datos del cliente -->
+            <table class="tabla-cliente">
+                <tr>
+                    <td colspan="2" class="titulo-seccion">DATOS DEL CLIENTE</td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Nombre / Razón Social:</td>
+                    <td>Distribuidora Central S.A.</td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">RUC / Cédula:</td>
+                    <td>0987654321001</td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Dirección:</td>
+                    <td>Calle Secundaria 456, Sector Norte</td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Teléfono:</td>
+                    <td>(01) 321-6540</td>
+                </tr>
+                <tr>
+                    <td class="etiqueta">Email:</td>
+                    <td>compras@distribuidoracentral.com</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Sección 3: Listado de productos -->
+        <table class="tabla-productos">
+            <thead>
+                <tr>
+                    <th>CÓDIGO</th>
+                    <th>DESCRIPCIÓN</th>
+                    <th>CANTIDAD</th>
+                    <th>PRECIO UNIT.</th>
+                    <th>SUBTOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>P001</td>
+                    <td>Monitor LED 24" FullHD</td>
+                    <td>5</td>
+                    <td>$189.99</td>
+                    <td>$949.95</td>
+                </tr>
+                <tr>
+                    <td>P002</td>
+                    <td>Teclado Mecánico RGB</td>
+                    <td>10</td>
+                    <td>$79.99</td>
+                    <td>$799.90</td>
+                </tr>
+                <tr>
+                    <td>P003</td>
+                    <td>Mouse Inalámbrico Ergonómico</td>
+                    <td>10</td>
+                    <td>$45.50</td>
+                    <td>$455.00</td>
+                </tr>
+                <tr>
+                    <td>P004</td>
+                    <td>Disco Duro SSD 1TB</td>
+                    <td>8</td>
+                    <td>$129.99</td>
+                    <td>$1,039.92</td>
+                </tr>
+                <tr>
+                    <td>P005</td>
+                    <td>Impresora Multifunción Láser</td>
+                    <td>3</td>
+                    <td>$299.99</td>
+                    <td>$899.97</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" rowspan="3" class="terminos">
+                        <strong>Términos y condiciones:</strong>
+                        <p>• Garantía de 1 año en todos los productos</p>
+                        <p>• No se aceptan devoluciones después de 15 días</p>
+                        <p>• Precios sujetos a cambio sin previo aviso</p>
+                    </td>
+                    <td class="totales-etiqueta">SUBTOTAL:</td>
+                    <td>$4,144.74</td>
+                </tr>
+                <tr>
+                    <td class="totales-etiqueta">IVA (12%):</td>
+                    <td>$497.37</td>
+                </tr>
+                <tr>
+                    <td class="totales-etiqueta total-final">TOTAL:</td>
+                    <td class="total-final">$4,642.11</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <!-- Sección 4: Información adicional -->
+        <table class="tabla-adicional">
+            <tr>
+                <td class="titulo-seccion">INFORMACIÓN ADICIONAL</td>
+            </tr>
+            <tr>
+                <td>
+                    <p><strong>Forma de pago:</strong> Transferencia bancaria</p>
+                    <p><strong>Cuenta bancaria:</strong> Banco Nacional - Cta. Cte. #1234567890</p>
+                    <p><strong>Tiempo de entrega:</strong> 5 días hábiles después de la confirmación del pago</p>
+                    <p><strong>Observaciones:</strong> Entrega en horario de oficina (8:00 - 17:00)</p>
+                </td>
+            </tr>
+        </table>
+
+        <div class="pie-pagina">
+            <p>¡Gracias por su confianza y preferencia!</p>
+            <p>www.comercialinsumos.com | soporte@comercialinsumos.com</p>
+        </div>
+    </div>
+</body>
+</html>
