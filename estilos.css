@@ -96,3 +96,75 @@ table {
     margin: 5px 0;
     font-size: 13px;
 }
+/* Estilos para la tabla de cliente */
+.tabla-cliente {
+    border: 1px solid #ddd;
+}
+
+.tabla-cliente tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabla-cliente td {
+    padding: 8px;
+    font-size: 13px;
+}
+
+.etiqueta {
+    width: 30%;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Estilos para la tabla de productos */
+.tabla-productos {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.tabla-productos th {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.tabla-productos td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+}
+
+.tabla-productos tbody td:nth-child(1) {
+    text-align: center;
+}
+
+.tabla-productos tbody td:nth-child(3),
+.tabla-productos tbody td:nth-child(4),
+.tabla-productos tbody td:nth-child(5) {
+    text-align: right;
+}
+
+.terminos {
+    text-align: left;
+    vertical-align: top;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.terminos p {
+    margin: 5px 0;
+}
+
+.totales-etiqueta {
+    text-align: right;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.total-final {
+    color: #1a5276;
+    font-weight: bold;
+    font-size: 16px;
+}
