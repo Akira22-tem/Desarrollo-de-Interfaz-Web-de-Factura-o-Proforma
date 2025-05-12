@@ -168,3 +168,30 @@ table {
     font-weight: bold;
     font-size: 16px;
 }
+/* Estilos para la tabla de información adicional */
+.tabla-adicional {
+    border: 1px solid #ddd;
+}
+
+.tabla-adicional td {
+    padding: 10px;
+    font-size: 13px;
+}
+
+.tabla-adicional p {
+    margin: 5px 0;
+}
+
+/* Estilos para el pie de página */
+.pie-pagina {
+    margin-top: 30px;
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.pie-pagina p {
+    margin: 5px 0;
+}
