@@ -31,3 +31,68 @@ table {
     font-weight: bold;
     font-size: 14px;
 }
+/* Estilos para la tabla de la empresa */
+.tabla-empresa {
+    border: 1px solid #ddd;
+}
+
+.tabla-empresa td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+
+.logo-img {
+    width: 120px;
+    height: auto;
+}
+
+.logo-placeholder {
+    border: 2px solid #ddd;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: #888;
+}
+
+.datos-empresa {
+    width: 50%;
+}
+
+.datos-empresa h1 {
+    color: #1a5276;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.datos-empresa p {
+    margin: 3px 0;
+    font-size: 13px;
+}
+
+.factura-num {
+    width: 30%;
+    text-align: center;
+}
+
+.factura-titulo {
+    background-color: #1a5276;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.factura-detalle {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.factura-detalle p {
+    margin: 5px 0;
+    font-size: 13px;
+}
