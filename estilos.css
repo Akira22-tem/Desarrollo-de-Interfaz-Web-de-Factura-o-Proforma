@@ -25,7 +25,7 @@ table {
 }
 
 .titulo-seccion {
-    background-color: #1a5276;
+    background-color: #761a1a;
     color: white;
     padding: 8px;
     font-weight: bold;
@@ -63,7 +63,7 @@ table {
 }
 
 .datos-empresa h1 {
-    color: #1a5276;
+    color: #761a1a;
     font-size: 22px;
     margin-bottom: 5px;
 }
@@ -79,7 +79,7 @@ table {
 }
 
 .factura-titulo {
-    background-color: #1a5276;
+    background-color: #761a1a;
     color: white;
     padding: 5px;
     font-weight: bold;
@@ -123,7 +123,7 @@ table {
 }
 
 .tabla-productos th {
-    background-color: #2980b9;
+    background-color: #b92539;
     color: white;
     padding: 10px;
     font-size: 13px;
@@ -164,7 +164,7 @@ table {
 }
 
 .total-final {
-    color: #1a5276;
+    color: #761a1a;
     font-weight: bold;
     font-size: 16px;
 }
